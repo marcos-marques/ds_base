@@ -1,0 +1,22 @@
+## CONFIGS
+PyYAML==5.3.1
+pyspark==3.2.0
+
+
+## Notebooks
+notedown==1.5.1
+jupyterthemes==0.20.0
+
+## Models
+joblib==1.0.1
+scikit-learn==1.0.2
+
+## Visualization
+seaborn==0.11.2
+wordcloud==1.8.*
+bokeh==2.3.3
+holoviews==1.14.5
+folium==0.12.1
+
+## Text
+nltk==3.6.*

@@ -1,0 +1,15 @@
+version: '3'
+services:
+  ds_base:
+    user: ds_base
+    build: .
+    image: ds/ds_base
+    working_dir: /opt/mentoria_ds_base/
+    entrypoint: ./scripts/local/explore.sh
+    command: jupyter
+    ports:
+      - $JUPYTER_PORT:$JUPYTER_PORT
+      - 4040-4050:4040-4050
+    volumes:
+      - .:/opt/mentoria_ds_base/
+      - $DATALAKE_DIR_LOCAL:$DATALAKE_DIR_VIRTUAL
