@@ -25,7 +25,7 @@ chmod -R +x ds_base/
 ```
 docker-compose up -d
 ```
-3. Uma vez subido o container você pode acessar o *Jupyter Notebook* no endereço [http://localhost:8086/lab?](http://localhost:8086/lab?)
+3. Uma vez subido o container você pode acessar o *Jupyter Notebook* no endereço [http://localhost:8088/lab?](http://localhost:8088/lab?)
 
 4. Para remover o container execute o comando:
 
