@@ -8,7 +8,7 @@ notedown==1.5.1
 jupyterthemes==0.20.0
 
 ## Models
-joblib==1.0.1
+joblib==1.2.0
 scikit-learn==1.0.2
 
 ## Visualization
